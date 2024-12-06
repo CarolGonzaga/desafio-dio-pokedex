@@ -1,4 +1,4 @@
-# Projeto - Pokedex 🐾  
+# Desafio - Pokedex 🐾  
 - Desenvolvimento Front-End  
 - Uma aplicação interativa que exibe informações sobre diferentes tipos de Pokémon, utilizando dados obtidos diretamente da [PokeAPI](https://pokeapi.co/).
 
