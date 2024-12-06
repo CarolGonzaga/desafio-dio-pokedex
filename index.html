@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+
+    <!-- Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex.css" />
+  </head>
+
+  <body>
+    <section class="content" id="index">
+      <header>
+        <h1>Selecione o tipo de Pokémon</h1>
+      </header>
+
+      <ol id="typePokemonList">
+        <li>
+          <button class="typePokemon steel" id="btn-steel">Aço</button>
+        </li>
+        <li>
+          <button class="typePokemon water" id="btn-water">Água</button>
+        </li>
+        <li>
+          <button class="typePokemon dragon" id="btn-dragon">Dragão</button>
+        </li>
+        <li>
+          <button class="typePokemon electric" id="btn-electric">Elétrico</button>
+        </li>
+        <li>
+          <button class="typePokemon fairy" id="btn-fairy">Fada</button>
+        </li>
+        <li>
+          <button class="typePokemon ghost" id="btn-ghost">Fantasma</button>
+        </li>
+        <li>
+          <button class="typePokemon fire" id="btn-fire">Fogo</button>
+        </li>
+        <li>
+          <button class="typePokemon ice" id="btn-ice">Gelo</button>
+        </li>
+        <li>
+          <button class="typePokemon grass" id="btn-grass">Grama</button>
+        </li>
+        <li>
+          <button class="typePokemon bug" id="btn-bug">Inseto</button>
+        </li>
+        <li>
+          <button class="typePokemon fighting" id="btn-fighting">Lutador</button>
+        </li>
+        <li>
+          <button class="typePokemon normal" id="btn-normal">Normal</button>
+        </li>
+        <li>
+          <button class="typePokemon rock" id="btn-rock">Pedra</button>
+        </li>
+        <li>
+          <button class="typePokemon psychic" id="btn-psychic">Psiquico</button>
+        </li>
+        <li>
+          <button class="typePokemon ground" id="btn-ground">Terra</button>
+        </li>
+        <li>
+          <button class="typePokemon poison" id="btn-poison">Veneno</button>
+        </li>
+        <li>
+          <button class="typePokemon flying" id="btn-flying">Voador</button>
+        </li>
+        <li>
+          <button class="typePokemon all" id="btn-all">Todos</button>
+        </li>
+      </ol>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="./assets/js/poke-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
